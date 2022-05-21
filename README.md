@@ -21,11 +21,3 @@ The program created in this repository is an attempt to profile customers of a c
 4. Clustering program will take information from the database and profile similar customers together and store clustering details in the database.
 
 5. Details about clusters of customers can be accessed by the marketing team and can do direct, effective advertising to customers using Twitter API.
-
-## To-do
-
-- [] Create script to retrieve Tweets
-- [] Add sentiment analysis
-- [] Create script to save details to database
-- [] Create clustering algorithm
-- [] Create web app to serve profiled data
