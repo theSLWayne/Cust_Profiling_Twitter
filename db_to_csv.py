@@ -9,7 +9,7 @@ from keys import detailsDict
 
 csv_file = 'data.csv'
 
-client = MongoClient("mongodb://127.0.0.1:27017/")
+client = MongoClient(detailsDict.db.URL)
 db = client[detailsDict.db.DATABASE]
 col = db[detailsDict.db.COLLECTION]
 
