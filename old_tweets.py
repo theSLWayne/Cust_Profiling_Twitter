@@ -42,6 +42,7 @@ for tweet in tweepy.Cursor(
 ).items():
     # Using TextBlob to get subjectivity score of the tweet
     tweet_text = TextBlob(tweet.text)
+    
     # Loading trained sentiment analysis model to get polarity of the tweet
     sentiment_model = tf.keras.models.load_model("./Models/sentiment140_bert")
     polarity = tf.sigmoid(sentiment_model.predict(tweet.text))
@@ -55,7 +56,7 @@ for tweet in tweepy.Cursor(
         # Increment tweet count
         new_tweet_count = user_profile["no_tweets"] + 1
 
-        # Create new user profile
+        # Create updated user profile
         tweet_profile = {
             "user_id": tweet.user.id,
 
