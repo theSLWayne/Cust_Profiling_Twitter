@@ -81,20 +81,15 @@ When a tweet is retrieved from the Twitter API, a customer profile is created. S
 
 ![New record code not available at the moment.](docs/new_profile.png)
 
-The values in a customer record are as follows:
-
-| Value | Description |
-| ----- | ----------- |
-| user_id | Twitter user id |
-| polarity | Sentiment of the tweets posted by user (-1: negative, 1:
-positive, 0: neutral) |
-
-
 Finally, changes are written to the database.
 
-### 3.3. Database
+### 3.4. Database
+
+A local MongoDB was created to store customer profiles.
 
 ### 3.4. Django REST API
+
+
 
 ## Files
 
