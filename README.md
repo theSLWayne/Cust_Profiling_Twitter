@@ -99,7 +99,9 @@ Clustering model is used to group customers by the similarity of their profiles.
 
 ### 3.4. Django REST API
 
+- The REST API to serve analytics data was created using Django REST Framework.
 
+- The database was connected to the API using Pymongo package.
 
 ## Files
 
