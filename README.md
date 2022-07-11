@@ -105,5 +105,12 @@ Clustering model is used to group customers by the similarity of their profiles.
 
 ## Files
 
-
+| File | Description |
+| ---- | ----------- | 
+| `db_to_csv.py` | Python script to export customer profiles in the database to a csv file |
+| `keys_template.py` | Python script to store Twitter API keys, search strings, database details etc. |
+| `old_tweets.py` | Python script to retrieve Tweets that have been already published. |
+| `retrieve_tweets.py` | Python script to retrieve live Tweets. |
+| `notebooks/` | .ipynb Notebooks |
+| `docs/` | Images for documentation |
 
