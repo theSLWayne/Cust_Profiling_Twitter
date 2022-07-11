@@ -87,6 +87,16 @@ Finally, changes are written to the database.
 
 A local MongoDB was created to store customer profiles.
 
+### 3.5. Clustering Model
+
+Clustering model is used to group customers by the similarity of their profiles. Clustering customers and studying collective properties of each cluster gives a company a good insight about what kind of customer types they are dealing with and they can use that information to plan their marketing campaigns and promotions.
+
+- Standard Scaling was used to preprocess the numerical columns of the dataset before using it to train the K-Means clustering model. 
+
+- Elbow Method was used to find the optimum number of clusters that a dataset should be grouped into.
+
+![Elbow Method image is not available at the moment.](docs/elbow.png)
+
 ### 3.4. Django REST API
 
 
