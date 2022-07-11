@@ -27,12 +27,11 @@ The program created in this repository is an attempt to profile customers of a c
 
 This project is made up from a couple of components that provide services along the process workflow. Below is a high-level overview of the project's components and their interactions.
 
-<div style='text-align: center'>
 ![Components of the project not available at the moment.](docs/components.png)
-</div>
+
 ### 3.1. Twitter API
 
-Twitter API was used to retrieve Tweets from users. 
+Twitter API was used to retrieve tweets that mention a specific set of keywords. A Twitter Developer account should be created to access the [Developer Platform](https://developer.twitter.com/en) and an App should be created in the platform to receive keys and tokens necessary to access Twitter API.
 
 ### 3.2. Processing Tweets
 
